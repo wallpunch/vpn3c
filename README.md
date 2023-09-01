@@ -1,6 +1,6 @@
 # Wallpunch 3C: Cross-Platform VPN Client Monorepo
 
-Wallpunch 3C (the "Common C Core") is a single repository containing basic VPN client projects for iOS, Mac, Android, and Windows*1* which share a custom, cross-platform VPN protocol implemented in C. This repo is intended as a simple working example to share the overall framework with the community. It DOES NOT contain the actual Wallpunch protocol or UI source code.
+Wallpunch 3C (the "Common C Core") is a single repository containing basic VPN client projects for iOS, Mac, Android, and Windows[^1] which share a custom, cross-platform VPN protocol implemented in C. This repo is intended as a simple working example to share the overall framework with the community. *It DOES NOT contain the actual Wallpunch protocol or UI source code.*
 
 ## Motivation
 
@@ -24,7 +24,7 @@ This repo was created on an Intel Mac running Monterey (12.6.7). It won't work o
 ## Usage
 
 - Use `make` to propagate any changes in the core protocol code to the client projects.
-- Client projects should open and build in their respective IDEs*2* directly out of the box but may require some tweaking if your development environment is different than mine.
+- Client projects should open and build in their respective IDEs[^2] directly out of the box but may require some tweaking if your development environment is different than mine.
 
 ## 3C VPN Protocol
 
@@ -41,5 +41,5 @@ Detailed guides explaining the overall framework architecture and specific clien
 - Android Client Guide (Coming Soon...)
 - Windows Client Guide (Coming Soon...)
 
-*1*I will make a Linux version eventually but it is low priority for me because almost none of my potential customers use Linux.
-*2*I would love to hear ideas on how to further automate things so no manual IDE operation is required for building/publishing.
+[^1]: I will make a Linux version eventually but it is low priority for me because almost none of my potential customers use Linux.
+[^2]: I would love to hear ideas on how to further automate things so no manual IDE operation is required for building/publishing.
